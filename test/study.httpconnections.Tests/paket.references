@@ -1,0 +1,4 @@
+NSubstitute
+NUnit
+Microsoft.NET.Test.Sdk
+NUnit3TestAdapter
