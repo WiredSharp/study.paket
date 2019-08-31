@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{832100DE-DEDA-4452-8ACF-1CCF5FFF3C9B}</ProjectGuid>
+    <ProjectGuid>{1CFBA433-BB1B-4E39-8D9A-006DE303E7E4}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -154,7 +154,7 @@
     <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And $(TargetFrameworkVersion) == 'v4.6.2'">
       <ItemGroup>
         <Reference Include="System.Web.Http.Owin">
-          <HintPath>..\..\..\..\..\..\.nuget\packages\microsoft.aspnet.webapi.owin\5.2.7\lib\net45\System.Web.Http.Owin.dll</HintPath>
+          <HintPath>..\..\..\..\..\..\.nuget\packages\microsoft.aspnet.webapi.owin\5.2.3\lib\net45\System.Web.Http.Owin.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>
@@ -176,7 +176,7 @@
     <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And $(TargetFrameworkVersion) == 'v4.6.2'">
       <ItemGroup>
         <Reference Include="Microsoft.Owin">
-          <HintPath>..\..\..\..\..\..\.nuget\packages\microsoft.owin\4.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+          <HintPath>..\..\..\..\..\..\.nuget\packages\microsoft.owin\3.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>
@@ -187,7 +187,7 @@
     <When Condition="$(TargetFrameworkIdentifier) == '.NETFramework' And $(TargetFrameworkVersion) == 'v4.6.2'">
       <ItemGroup>
         <Reference Include="Microsoft.Owin.Host.SystemWeb">
-          <HintPath>..\..\..\..\..\..\.nuget\packages\microsoft.owin.host.systemweb\4.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+          <HintPath>..\..\..\..\..\..\.nuget\packages\microsoft.owin.host.systemweb\3.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
           <Private>True</Private>
           <Paket>True</Paket>
         </Reference>
