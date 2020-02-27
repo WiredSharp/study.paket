@@ -30,13 +30,9 @@ namespace LegacyOwin
                 return next();
             });
             app.UseWebApi(config);
-            app.Use((ctx, next) =>
-            {
-                Log.Logger.Information($"{ctx.Request.Uri} - after webapi");
-                return next();
-            });
             app.Run((ctx) =>
             {
+                Log.Logger.Information($"{ctx.Request.Uri} - after webapi");
                 ctx.Response.StatusCode = 404;
                 ctx.Response.ReasonPhrase = "Dead End";
                 ctx.Response.Body.Close();

@@ -3,7 +3,7 @@ using System.Web.Http;
 using Owin;
 using Serilog;
 
-namespace LegacyOwin527
+namespace LegacyOwin
 {
     public class Startup
     {
@@ -30,9 +30,13 @@ namespace LegacyOwin527
                 return next();
             });
             app.UseWebApi(config);
-            app.Run((ctx) =>
+            app.Use((ctx, next) =>
             {
                 Log.Logger.Information($"{ctx.Request.Uri} - after webapi");
+                return next();
+            });
+            app.Run((ctx) =>
+            {
                 ctx.Response.StatusCode = 404;
                 ctx.Response.ReasonPhrase = "Dead End";
                 ctx.Response.Body.Close();

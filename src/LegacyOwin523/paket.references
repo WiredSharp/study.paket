@@ -1,0 +1,13 @@
+group WebApi523
+
+   Microsoft.AspNet.WebApi.Owin
+   Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+   Microsoft.Owin
+   Microsoft.Owin.Host.SystemWeb
+   Newtonsoft.Json
+   Owin
+   Serilog
+   Serilog.Sinks.File
+   Serilog.Sinks.RollingFile
+   Microsoft.AspNet.WebApi.Client
+   Microsoft.AspNet.WebApi.Core
